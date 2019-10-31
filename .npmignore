@@ -1,0 +1,11 @@
+flow-typed
+/src/
+.eslintignore
+.eslintrc.yml
+.gitignore
+.travis.yml
+.npmignore
+babel.config.js
+Makefile
+
+

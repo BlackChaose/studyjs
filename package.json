@@ -1,8 +1,8 @@
 {
   "name": "blackchaose.components",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "simple components",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
@@ -12,7 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/BlackChaose/Components.git"
   },
-  "bin":{
+  "bin": {
+    "say": "dist/bin/say.js"
   },
   "keywords": [
     "components",
@@ -25,9 +26,13 @@
   },
   "homepage": "https://github.com/BlackChaose/Components#readme",
   "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/node": "^7.6.3",
+    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
     "@babel/preset-env": "^7.6.3",
     "babel-eslint": "^10.0.3",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -35,9 +40,6 @@
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-import": "^2.18.2",
     "readline-sync": "^1.4.10",
-    "lodash": "^4.17.11"
-  },
-  "devDependencies": {
     "eslint": "^5.16.0"
   }
 }
