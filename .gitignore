@@ -1,6 +1,2 @@
 /.idea/
-/dist/
-*.log
-.tern-port
-.idea
 /node_modules/
