@@ -1,4 +1,4 @@
-import { say } from './Bar.js';
+import { say } from './Bar';
 
-console.log('in index!');
+console.log('in index.js!');
 say();

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import { say } from '../Bar.js';
+import { say } from '../Bar';
 
-let a = () => {
+const a = () => {
   console.log('in say.js');
   say();
 }

@@ -1,6 +1,6 @@
 {
   "name": "blackchaose.components",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "description": "simple components",
   "main": "dist/index.js",
   "scripts": {
